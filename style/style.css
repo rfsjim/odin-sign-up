@@ -1,0 +1,63 @@
+:root {
+    font-size: 1.6rem;
+}
+
+body {
+    display: flex;
+}
+
+.offside-regular {
+  font-family: "Offside", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+aside {
+    background-image: url("../images/starry-sky.jpg");
+    color: #ffffff;
+}
+
+aside div {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: larger;
+}
+
+aside p {
+    font-size: smaller;
+}
+
+aside a {
+    color: #ffffff;
+}
+
+img {
+    height: 25%;
+    aspect-ratio: 1;
+}
+
+input[type=button] {
+    background-color: #596D48;
+    color: #ffffff;
+}
+
+section {
+    background-color: #f9fafb;
+    font-weight: bold;
+    padding: 0 25% 0 5%;
+}
+
+section:first-of-type {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+section:nth-of-type(2) {
+    background-color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+section:last-of-type {
+    font-weight: 300;
+    padding-bottom: 10rem;   
+}
