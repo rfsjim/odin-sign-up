@@ -7,7 +7,6 @@ This project is intended to give you a chance to flex some of the new items you�
     3. Download a full-resolution copy of the design file, and get a general idea for how you’re going to need to lay things out in your HTML document.
 2. Gather Assets
     1. The design has a large background-image, so go find and download an image you want to use for that section. The one in the design can be found on unsplash.com, but feel free to select your own. Be sure to credit the creator of your image!
-    (Photo by <a href="https://unsplash.com/@n8rayfield?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">nate rayfield</a> on <a href="https://unsplash.com/photos/green-leafed-tree-on-body-of-water-under-starry-sky-_WR6tUIAJe8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>)
     2. Pick an external font for the ‘logo’ section. We’ve used Norse Bold, but you can use any font you like.
     Offside Static
 
