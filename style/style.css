@@ -15,15 +15,27 @@ body {
 aside {
     background-image: url("../images/starry-sky.jpg");
     color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
 }
 
 aside div {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 8rem;
 }
 
 aside p {
     font-size: smaller;
+}
+
+aside > p:last-of-type {
+    margin-top: auto;
 }
 
 aside a {
@@ -31,7 +43,7 @@ aside a {
 }
 
 img {
-    height: 25%;
+    max-width: 60%;
     aspect-ratio: 1;
 }
 
@@ -60,4 +72,9 @@ section:nth-of-type(2) {
 section:last-of-type {
     font-weight: 300;
     padding-bottom: 10rem;   
+}
+
+label {
+    text-transform: uppercase;
+    font-size: smaller;
 }
