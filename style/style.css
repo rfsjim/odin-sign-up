@@ -17,12 +17,13 @@ aside {
     color: #ffffff;
     display: flex;
     flex-direction: column; 
-    height: 100vh;
+    height: 97vh;
+    width: 100%;
 }
 
 aside div {
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: larger;
+    font-size: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,7 +36,7 @@ aside p {
 }
 
 aside > p:last-of-type {
-    margin-top: auto;
+    margin: auto auto 0;
 }
 
 aside a {
@@ -47,9 +48,38 @@ img {
     aspect-ratio: 1;
 }
 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    box-sizing: border-box;
+    border-color: #E5E7EB;
+}
+
 input[type=button] {
     background-color: #596D48;
     color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .25rem 1rem;
+    border-radius: 10%;
+}
+
+input:focus {
+    outline-color: blue;
+    box-shadow: #596D48;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
 }
 
 section {
@@ -76,5 +106,7 @@ section:last-of-type {
 
 label {
     text-transform: uppercase;
-    font-size: smaller;
+    font-size: .5rem;
+    font-weight: 200;
+    display: block;
 }
